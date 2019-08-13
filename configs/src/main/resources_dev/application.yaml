@@ -1,0 +1,17 @@
+server:
+    port: 8080
+management:
+    port: 7002
+spring:
+    jpa:
+        hibernate:
+            naming_strategy: org.hibernate.cfg.EJB3NamingStrategy
+    datasource:
+        initialize: true
+        sqlScriptEncoding: UTF-8
+    mvc:
+        view:
+            prefix: /WEB-INF/jsp/
+            suffix: .jsp
+    profiles:
+        active: dev
