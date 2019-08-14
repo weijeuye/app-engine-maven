@@ -13,6 +13,7 @@
     <groupId>com.hwx</groupId>
     <artifactId>frame</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
@@ -33,11 +34,11 @@
             <version>2.1.3.RELEASE</version>
         </dependency>
 
-        <dependency>
+       <!-- <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
-            <version>1.4.7.RELEASE</version>
-        </dependency>
+            <version>2.1.3.RELEASE</version>
+        </dependency>-->
 
         <dependency>
             <groupId>org.javasimon</groupId>

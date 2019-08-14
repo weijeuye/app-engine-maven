@@ -9,6 +9,7 @@
     <bean id="rateRedisFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
           p:hostName="${frame.ratelimit.redis.host}"
           p:port="${frame.ratelimit.redis.port}"
+          p:password="${frame.ratelimit.redis.password}"
           p:usePool="true"
           p:timeout="1000"
           p:poolConfig-ref="baseJedisPoolConfig"/>
